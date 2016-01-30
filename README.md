@@ -17,7 +17,7 @@ For compatibility with url-loader `advancedUrl` option is used:
     loaders: [
       {
         test: /\.(jpg|png|gif|svg)$/,
-        loader: 'url?limit=10000'
+        loader: 'advanced-url?limit=10000'
       }
     ]
   },
